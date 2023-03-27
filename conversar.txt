@@ -15,6 +15,6 @@ Precisamos ecolher a tipografia e color, penser em fazermos juntos a pagina inde
 Paginas
 1.home - index
 2.news
-3.band members
+3.band members - joao
 4.midia
-5.contact
+5.contact - julio
