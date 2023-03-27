@@ -5,8 +5,8 @@ Colocar aqui as coisa que iremos faz e utilizar:
 #f1f2f0(white smoke)
 #0D0D0D(Night)
 #262626(eerie black)
-#6D6A75(Dim gray)
-#961313(Carmine)
+#275DAD(demin)
+#6247AA(royal purple)
 3.Etc.
 
 Então o tema vai ser a BANDA!!
