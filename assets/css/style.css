@@ -7,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #00040b;
+    color:#f1f2f0;
+}
 /* Define uma imagem de fundo para a classe .menu e estilos de posição e tamanho para a classe .logo. */
 .menu{
     background-image: url(../img/header/fundo.jpg);
