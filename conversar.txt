@@ -6,3 +6,10 @@ Colocar aqui as coisa que iremos faz e utilizar:
 
 Então o tema vai ser a BANDA!!
 Precisamos ecolher a tipografia e color, penser em fazermos juntos a pagina index juntos e depois separar as outras paginas para cada um fazer baseando na index. - Julio
+
+Paginas
+1.home - index
+2.news
+3.band members
+4.midia
+5.contact
