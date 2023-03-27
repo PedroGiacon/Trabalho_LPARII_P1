@@ -9,7 +9,7 @@
 }
 body{
     background-color: #00040b;
-    color:#f1f2f0;
+    color: #f1f2f0;
 }
 /* Define uma imagem de fundo para a classe .menu e estilos de posição e tamanho para a classe .logo. */
 .menu{
@@ -71,7 +71,4 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #9A9A9A;
-}
-p{
-    font-size: 10em;
 }
