@@ -1,0 +1,4 @@
+Colocar aqui as coisa que iremos faz e utilizar:
+1.Fonte;
+2.Color;
+3.Etc.
