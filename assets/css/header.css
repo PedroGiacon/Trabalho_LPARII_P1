@@ -33,3 +33,19 @@ body{
     position: fixed;
     transition: 0.5s;
 }
+.navegacao ul{
+    display: flex;
+}
+.navegacao ul li{
+    list-style:none;
+    cursor:pointer;
+    display:block;
+    font-family: 'Special Elite', cursive;
+    font-size: 3vw;
+    width: 55%;
+    height: 75%;
+}
+.navegacao ul li a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
