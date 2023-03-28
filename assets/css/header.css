@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00040b;
+    color: #f1f2f0;
+}
+.menu{
+    background-image: url(../img/header/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logocentro{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    height: 23vw;
+    width: 23vw;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+.navegacao{
+    background-color: rgba(13, 13, 13, 0.7);
+    transition: 0.5s;
+    width:100%;
+}
+.navegacao.sticky{
+    position: fixed;
+    transition: 0.5s;
+}
