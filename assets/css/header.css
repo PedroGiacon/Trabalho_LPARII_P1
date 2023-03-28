@@ -43,12 +43,15 @@ body{
     display:block;
     font-family: 'Special Elite', cursive;
     font-size: 3vw;
-    width: 55%;
-    height: 75%;
-    margin-left: 4.7vw;
+    /* width: 55%; 
+    height: 75%;*/
+    margin-left: 8.15vw;
 }
 .navegacao ul li a{
     text-decoration: none;
     color: #9A9A9A;
     
+}
+p{
+    font-size: 2vw;
 }
