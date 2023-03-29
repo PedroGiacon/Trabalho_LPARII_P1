@@ -61,3 +61,20 @@ body{
 p{
     font-size: 2vw;
 }
+
+.footer{
+    background-image: url(../img/header/BordaCor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vw;
+    background-repeat: no-repeat;
+    font-family: 'special elite', cursive;
+    float:inline-start;
+    padding-top: 3vw;
+    
+
+}
+.teste{
+    padding: auto;
+
+}
