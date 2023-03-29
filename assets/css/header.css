@@ -16,6 +16,14 @@ body{
 .logocentro{
     width: 80%;
     margin: 0 auto;
+    display: block;
+    transition: 0.5s;
+}
+.logocentro.desativo{
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    transition: 0.5s;
 }
 .logo{
     height: 23vw;
@@ -43,8 +51,6 @@ body{
     display:block;
     font-family: 'Special Elite', cursive;
     font-size: 3vw;
-    /* width: 55%; 
-    height: 75%;*/
     margin-left: 8.15vw;
 }
 .navegacao ul li a{
