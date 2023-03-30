@@ -74,7 +74,21 @@ p{
     
 
 }
-.teste{
-    padding: auto;
-
+.fotterleft{
+    color: #9A9A9A;
+    float: left;
+    width: 50%;
+}
+.fotterleft a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+.fotterright{
+    float: right;
+    width: 50%;
+}
+.fotterright img{
+    height: 5vw;
+    width: 5vw;
+    
 }
