@@ -72,7 +72,9 @@ body{
     background-repeat: no-repeat;
     font-family: 'special elite', cursive;
     float:inline-start;
-    padding-top: 3vw;
+    padding-top: 4vw;
+    font-size: 2.1vw;
+    text-align: center; 
 }
 .fotterleft{
     color: #9A9A9A;
