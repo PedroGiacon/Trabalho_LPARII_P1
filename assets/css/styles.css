@@ -33,11 +33,18 @@ body{
     height: auto;
 }
 .navegacao{
-    background-color: rgba(13, 13, 13, 0.7);
+    background-image: url(../img/header/borninha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
     transition: 0.5s;
     width:100%;
+    height: 5vw;
+    padding-top: 2vw;
 }
 .navegacao.sticky{
+    background-image: none;
+    background-color: rgba(13, 13, 13, 0.9);
     top: 0;
     position: fixed;
     transition: 0.5s;
@@ -56,12 +63,7 @@ body{
 .navegacao ul li a{
     text-decoration: none;
     color: #9A9A9A;
-    
 }
-p{
-    font-size: 2vw;
-}
-
 .footer{
     background-image: url(../img/header/BordaCor.png);
     background-repeat: no-repeat;
@@ -71,8 +73,6 @@ p{
     font-family: 'special elite', cursive;
     float:inline-start;
     padding-top: 3vw;
-    
-
 }
 .fotterleft{
     color: #9A9A9A;
@@ -90,5 +90,4 @@ p{
 .fotterright img{
     height: 5vw;
     width: 5vw;
-    
 }
