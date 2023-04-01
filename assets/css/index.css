@@ -21,6 +21,7 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
+/* Ajuste de todas as <img></img> dentro da clss noticia */
 .noticia img{
     border: 0.1vw solid #9a9a9a ;
     height: 22vw;
@@ -30,11 +31,20 @@ h1{
     margin-right: auto;
 }
 
+/* Ajuste de todas as <p></p> dentro da clss noticia */
+.noticia p{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 1.7vw;
+    color: #FFFFFF;
+}
+
 #setlist{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+/* Ajuste de todas as <img></img> dentro da id setlist*/
 #setlist img{
     height: 35vw;
     width: 25vw;
@@ -49,6 +59,7 @@ h1{
     align-items: center;
     text-align: center;
 }
+/* Ajuste de todas as <img></img> dentro da id show*/
 #show img{
     border: 0.1vw solid #9a9a9a ;
     height: 39vw;
@@ -56,11 +67,4 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.fonte{
-    font-family: 'Special Elite', cursive;
-    text-align: center;
-    font-size: 1.7vw;
-    color: #FFFFFF;
 }
