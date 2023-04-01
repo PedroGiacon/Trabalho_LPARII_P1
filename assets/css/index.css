@@ -28,8 +28,12 @@ h1{
 #setlist{
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 #setlist img{
     height: 35vw;
     width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
