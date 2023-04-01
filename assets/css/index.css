@@ -30,7 +30,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
-
 /* Ajuste de todas as <p></p> dentro da clss noticia */
 .noticia p{
     font-family: 'Special Elite', cursive;
@@ -38,7 +37,6 @@ h1{
     font-size: 1.7vw;
     color: #FFFFFF;
 }
-
 #setlist{
     justify-content: center;
     align-items: center;
@@ -67,4 +65,5 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1vw;
 }
