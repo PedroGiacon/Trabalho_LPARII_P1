@@ -36,19 +36,8 @@ h1{
     text-align: center;
     font-size: 1.7vw;
     color: #FFFFFF;
-}
-#setlist{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-/* Ajuste de todas as <img></img> dentro da id setlist*/
-#setlist img{
-    height: 35vw;
-    width: 25vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
 }
 #show{
     margin-top: 1vw;
@@ -65,5 +54,19 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1vw;
+    margin-top: 2vw;
+}
+#setlist{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Ajuste de todas as <img></img> dentro da id setlist*/
+#setlist img{
+    height: 35vw;
+    width: 25vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1vw solid #9a9a9a ;
 }
