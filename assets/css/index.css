@@ -11,3 +11,25 @@ h1{
     height: 5vw;
     padding-top: 2vw;
 }
+#news h1{
+    margin-top: 5vw;
+}
+.noticia img{
+    border: 0.1vw solid #9a9a9a ;
+    height: 22vw;
+    width: 22vw;
+}
+#noticia1{
+    float: left;
+    width: 25%;
+}
+
+
+#setlist{
+    justify-content: center;
+    align-items: center;
+}
+#setlist img{
+    height: 35vw;
+    width: 20vw;
+}
