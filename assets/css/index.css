@@ -23,6 +23,14 @@ h1{
     float: left;
     width: 25%;
 }
+#noticia2{
+    float: center;
+    width: 25%;
+}
+#noticia3{
+    float: right;
+    width: 25%;
+}
 
 
 #setlist{
@@ -31,8 +39,21 @@ h1{
     text-align: center;
 }
 #setlist img{
-    height: 35vw;
-    width: 20vw;
+    height: 45vw;
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#show{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#show img{
+    border: 0.1vw solid #9a9a9a ;
+    height: 39vw;
+    width: 70vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
