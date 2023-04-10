@@ -89,6 +89,10 @@ body{
     text-decoration: none;
     color: #9A9A9A;
 }
+.fotterleft a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
 .fotterright{
     float: right;
     width: 50%;
