@@ -1,5 +1,6 @@
 /* Importa uma fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 h1{
     font-family: 'Special Elite', cursive; /*Definica fonte a fonte Special Elite é um fonte importada do google */
     text-align: center; /*Define o alinhamento horizontal do texto como centralizado*/
