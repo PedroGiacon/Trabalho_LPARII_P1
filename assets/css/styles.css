@@ -61,7 +61,11 @@ body{
     font-size: 3vw;
     margin-left: 8.15vw;
 }
-.navegacao ul li a:hover{  /* Quando o mouse passa sobre o link, ativa o "hover" e a cor do texto é alterada*/
+.navegacao ul li a{
+    text-decoration: none;
+    color: #9A9A9A;
+}
+.navegacao ul li a:hover{
     text-decoration: none;
     color: #ffffff;
 }
