@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.corpo{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #080a0e;
+}
 body{
     background-color: #00040b;
     color: #f1f2f0;
@@ -37,7 +42,7 @@ body{
     background-image: url(../img/header/borninha.png);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+    opacity: 0.75;
     transition: 0.5s;
     width:100%;
     height: 5vw;
