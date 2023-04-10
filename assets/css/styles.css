@@ -15,7 +15,7 @@ body{
     color: #f1f2f0;
 }
 .menu{
-    background-image: url(../img/header/fundo.jpg);
+    background-image: url(../img/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -39,7 +39,7 @@ body{
     height: auto;
 }
 .navegacao{
-    background-image: url(../img/header/borninha.png);
+    background-image: url(../img/borninha.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.75;
@@ -75,7 +75,7 @@ body{
     color: #ffffff;
 }
 .footer{
-    background-image: url(../img/header/BordaCor.png);
+    background-image: url(../img/BordaCor.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 10vw;
