@@ -1,28 +1,29 @@
-#spotify{
-    padding-top: 2vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
+/* Importa uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+/* Controla a exibição da lista de vídeos com base no item selecionado */
 .video-controller:nth-child(1):checked ~ .video-show .videos-list{
-    --selected-item: 0;
+    --selected-item: 0; /* Define o primeiro item como selecionado */
 }
 .video-controller:nth-child(2):checked ~ .video-show .videos-list{
-    --selected-item: 1;
+    --selected-item: 1; /* Define o segundo item como selecionado */
 }
 .video-controller:nth-child(3):checked ~ .video-show .videos-list{
-    --selected-item: 2;
+    --selected-item: 2; /* Define o terceiro item como selecionado */
 }
+/* Esconde a barra de rolagem da lista de vídeos */
 .video-show{
     overflow: hidden;
 }
+/* Define o estilo da lista de vídeos */
 .videos-list{
-    --selected-item: 0;
-    --total-items: 3;
-    list-style-type: none;
+    --selected-item: 0;/* Define o item selecionado */
+    --total-items: 3; /* Define o total de itens na lista */
+    list-style-type: none; /* Remove a numeração de lista */
     padding: 0;
     position: relative;
-    left: calc(var(--selected-item) * -100%);
-    width: calc(var(--total-items) * 100%);
+    left: calc(var(--selected-item) * -100%);  /* Move a lista para mostrar o item selecionado */
+    width: calc(var(--total-items) * 100%); /* Define a largura da lista com base no número de itens */
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -31,9 +32,14 @@
     width: 100%;
 }
 .video iframe{
-    width: 32vw;
-    height: 18vw;
+    width: 32vw; /* Define a largura em relação à largura da tela */
+    height: 18vw; /* Define a altura em relação à largura da tela */
 }
 .video{
-    text-align: center;
+    text-align: center; /* Centraliza o vídeo */
+}
+#spotify{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
