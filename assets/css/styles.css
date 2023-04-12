@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 .corpo{
-    margin-top: -5vw;
     margin-bottom: -2.5vw;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -21,6 +20,7 @@ body{
     background-image: url(../img/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .logocentro{
     width: 80%;

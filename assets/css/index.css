@@ -4,7 +4,7 @@
 h1{
     font-family: 'Special Elite', cursive; /*Definica fonte a fonte Special Elite é um fonte importada do google */
     text-align: center; /*Define o alinhamento horizontal do texto como centralizado*/
-    font-size: 2.5vw; /*Define o tamanho da fonte do elemento h1 em unidades relativas à largura da tela em porcentagem (vw)*/
+    font-size: 2vw; /*Define o tamanho da fonte do elemento h1 em unidades relativas à largura da tela em porcentagem (vw)*/
     color: #FFFFFF; 
     background-image: url(../img/background_divisoria.png); /*Define uma imagem de fundo*/
     background-repeat: no-repeat;/* Define que a imagem de fundo não deve ser repetida*/ 
@@ -14,7 +14,6 @@ h1{
     padding-top: 2vw;
 }
 #news h1{
-    margin-top: 5vw;
     margin-bottom: 5vw;
 }
 .noticia{
@@ -25,8 +24,8 @@ h1{
 /* Ajuste de todas as <img></img> dentro da clss noticia */
 .noticia img{
     border: 0.1vw solid #9a9a9a ;
-    height: 22vw;
-    width: 22vw;
+    height: 20vw;
+    width: 20vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -34,7 +33,7 @@ h1{
 .noticia p{
     font-family: 'Special Elite', cursive;
     text-align: center;
-    font-size: 1.7vw;
+    font-size: 1vw;
     color: #FFFFFF;
     padding-left: 5.5vw;
     padding-right: 5.5vw;
