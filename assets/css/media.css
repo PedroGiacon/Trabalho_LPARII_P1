@@ -1,0 +1,39 @@
+#spotify{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.video-controller:nth-child(1):checked ~ .video-show .videos-list{
+    --selected-item: 0;
+}
+.video-controller:nth-child(2):checked ~ .video-show .videos-list{
+    --selected-item: 1;
+}
+.video-controller:nth-child(3):checked ~ .video-show .videos-list{
+    --selected-item: 2;
+}
+.video-show{
+    overflow: hidden;
+}
+.videos-list{
+    --selected-item: 0;
+    --total-items: 3;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+    width: calc(var(--total-items) * 100%);
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+.video{
+    width: 100%;
+}
+.video iframe{
+    width: 32vw;
+    height: 18vw;
+}
+.video{
+    text-align: center;
+}
