@@ -11,9 +11,7 @@
 #members{
     display: grid;
     grid-template-columns: repeat(2, 0fr);
-    text-align: center;
-    
-
+    text-align: center;    
 }
 #members img{
    width: 39.4vw;
