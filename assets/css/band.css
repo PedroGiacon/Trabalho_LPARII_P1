@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+#band p{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+#members{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    text-align: center;
+    
+
+}
+#members img{
+   width: 39.4vw;
+   height: 30vw;
+   margin-top: 3vw;
+}
+#members p{
+    font-family: 'Special Elite', cursive;
+}
