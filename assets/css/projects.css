@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-.jaraguenses{
+#jaraguenses{
     text-align: left;
     display: grid;
     grid-template-columns: repeat(2, 0.4fr); 
 }
-.jaraguenses img{
+#jaraguenses img{
     height: 20vw;
     width: 20vw;
     margin-left: 7vw;
@@ -12,18 +12,18 @@
     margin-top: 3vw;
     margin-bottom: 7vw;
 }
-.jaraguenses p{
+#jaraguenses p{
     font-family: 'Special Elite', cursive;;
     font-size: 1.80vw;
     margin-top: 10vw;
     margin-right: -12vw;
 }
-.stonelich{
+#stonelich{
     text-align: right;
     display: grid;
     grid-template-columns: repeat(2, 0.4fr);
 }
-.stonelich img{
+#stonelich img{
     height: 20vw;
     width: 20vw;
     margin-left: 7vw;
@@ -31,7 +31,7 @@
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
-.stonelich p{
+#stonelich p{
     font-family: 'Special Elite', cursive;;
     font-size: 1.80vw;
     margin-top: 10vw;
@@ -56,4 +56,8 @@
     font-size: 1.80vw;
     margin-top: 10vw;
     margin-right: -12vw;
+}
+.channels a{
+    text-decoration: none;
+    color: #9898f8;
 }
