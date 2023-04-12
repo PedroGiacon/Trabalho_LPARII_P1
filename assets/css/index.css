@@ -1,18 +1,5 @@
 /* Importa uma fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
-h1{
-    font-family: 'Special Elite', cursive; /*Definica fonte a fonte Special Elite é um fonte importada do google */
-    text-align: center; /*Define o alinhamento horizontal do texto como centralizado*/
-    font-size: 2vw; /*Define o tamanho da fonte do elemento h1 em unidades relativas à largura da tela em porcentagem (vw)*/
-    color: #FFFFFF; 
-    background-image: url(../img/background_divisoria.png); /*Define uma imagem de fundo*/
-    background-repeat: no-repeat;/* Define que a imagem de fundo não deve ser repetida*/ 
-    background-size: cover;/*Define o tamanho da imagem de fundo para cobrir todo o elemento*/
-    width:100%;
-    height: 5vw;
-    padding-top: 2vw;
-}
 #news h1{
     margin-bottom: 5vw;
 }
