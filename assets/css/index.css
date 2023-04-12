@@ -48,8 +48,8 @@ h1{
 /* Ajuste de todas as <img></img> dentro da id show*/
 #show img{
     border: 0.1vw solid #9a9a9a ;
-    height: 39vw;
-    width: 70vw;
+    height: 26vw;
+    width: 47vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,8 +62,8 @@ h1{
 }
 /* Ajuste de todas as <img></img> dentro da id setlist*/
 #setlist img{
-    height: 35vw;
-    width: 25vw;
+    height: 24vw;
+    width: 17vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
