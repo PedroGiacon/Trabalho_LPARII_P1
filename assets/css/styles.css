@@ -1,8 +1,11 @@
 /* Importa uma fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 *{  
+    /* Define a margem como 0 para todos os elementos */
     margin: 0;
+    /* Define o preenchimento como 0 para todos os elementos */
     padding: 0;
+    /* Define a caixa de conteúdo como borda-box para que o tamanho total do elemento inclua as bordas e o preenchimento */
     box-sizing: border-box;
 }
 body{
