@@ -22,13 +22,26 @@ body{
     margin: 0 auto;
     display: block;
     transition: 0.5s;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+      margin-bottom: 5%;
+      height: 15%
+    }
+  
+    to {
+      margin-bottom: 0%;
+      height: 0%;
+    }
+  }
 .logocentro.desativo{
     width: 80%;
     margin: 0 auto;
     display: none;
     transition: 0.5s;
-}
+  }
 .logo{
     height: 23vw;
     width: 23vw;
@@ -62,7 +75,7 @@ body{
     display:block;
     font-family: 'Special Elite', cursive;
     font-size: 3vw;
-    margin-left: 8.15vw;
+    margin-left: 8.55vw;
 }
 .navegacao ul li a{
     text-decoration: none;
