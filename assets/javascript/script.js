@@ -15,6 +15,3 @@ window.onscroll = function() {
       logocentro.classList.remove('desativo');
    }
 }
-
-
-cuzinho sujo
