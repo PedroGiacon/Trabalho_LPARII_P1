@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 .contact{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     background-image: url(../img/bgContact.png);
+    background-repeat: no-repeat;
+    height: 50vw;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 5fr);
+}
+.contact p{
+    font-family: 'Special Elite', cursive;;
+    font-size: 2vw;
+    
+}
+.contact h2{
+    font-family: 'Special Elite', cursive;;
+    font-size: 3vw;
+    padding-top: 20vw;
+}
+.contact a{
+    text-decoration: none;
+    color: #ffffff;
 }
