@@ -1,4 +1,6 @@
+/* Importa uma fonte do "google fonts" */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* Estilo da divisão contact */
 .contact{
     margin-top: 5vw;
     margin-bottom: 5vw;
@@ -9,16 +11,18 @@
     display: grid;
     grid-template-columns: repeat(2, 5fr);
 }
+/* Ajuste de todas as <p></p> dentro do id "band" */
 .contact p{
     font-family: 'Special Elite', cursive;;
-    font-size: 2vw;
-    
+    font-size: 2vw;    
 }
+/* Estiliza os titulos de nivel 2 */
 .contact h2{
     font-family: 'Special Elite', cursive;;
     font-size: 3vw;
     margin-top: 20vw;
 }
+/* Estiliza a fonte contact */
 .contact a{
     text-decoration: none;
     color: #ffffff;
