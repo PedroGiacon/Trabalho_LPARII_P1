@@ -4,15 +4,15 @@
 .galeria {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 1.5rem; 
+    grid-template-rows: repeat(8, 5vw);/* Define 8 linhas com altura igual a 5% da altura da viewport */
+    grid-gap: 1.5rem;/* Define o espaçamento entre as células do grid */
     margin: 2vw 2vw 2vw 2vw;
 } 
 /* Define uma imagem da galeria com 100% de largura, altura e object-fit para cover */
 .galeria__img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;/* Redimensiona a imagem para preencher o contêiner pai sem deformá-la */
     display: block; 
 } 
 /* Define a posição e tamanho do item 1 na galeria */
@@ -81,19 +81,20 @@
     left: calc(var(--selected-item) * -100%);  /* Move a lista para mostrar o item selecionado */
     width: calc(var(--total-items) * 100%); /* Define a largura da lista com base no número de itens */
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    grid-auto-flow: column;/* Define o fluxo automático de células como uma coluna */
+    grid-auto-columns: 1fr;/* Define a largura automática de cada célula como 1 fração do espaço disponível */
 }
+/* Define a estilização para o elemento com classe "video" */
 .video{
     width: 100%;
+    text-align: center; /* Centraliza o vídeo */
 }
+/* Ajuste de todas as <iframe></iframe> dentro da classe "video" */
 .video iframe{
     width: 32vw; /* Define a largura em relação à largura da tela */
     height: 18vw; /* Define a altura em relação à largura da tela */
 }
-.video{
-    text-align: center; /* Centraliza o vídeo */
-}
+/* Define a estilização para o elemento com id "spotify" */
 #spotify{
     padding-top: 2vw;
     padding-left: 2vw;

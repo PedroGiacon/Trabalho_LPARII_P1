@@ -1,7 +1,7 @@
 /* Importa uma fonte do "google fonts" */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /* Ajuste de todas as <p></p> dentro do id "band" */
-#band p{
+.corpo p{
     font-family: 'Special Elite', cursive;
     text-align: center;
     font-size: 2vw;

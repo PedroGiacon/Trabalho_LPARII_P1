@@ -6,19 +6,15 @@
 }
 /* Define a estilização para os elementos com classe "noticia" */
 .noticia{
-    /* Define um layout de grade com 3 colunas de largura igual */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);/* Define a largura das três colunas em um grid usando a unidade "fr". A unidade "fr" é uma unidade de medida de "espaço livre disponível", o que significa que a largura de cada coluna será calculada automaticamente com base no espaço disponível no container do grid. */
     text-align: center;
 }
-/* Define a fonte para 'Special Elite' e estilo cursive */
+/* Ajuste de todas as <img></img> dentro da classe "noticia" */
 .noticia img{
-    /* Define uma borda sólida com 0.1vw de espessura e cor #9a9a9a */
-    border: 0.1vw solid #9a9a9a ;
-    /* Define a altura e largura das imagens para 20% da largura da tela */
+    border: 0.1vw solid #9a9a9a ;/* Define uma borda sólida com 0.1vw de espessura e cor #9a9a9a */
     height: 20vw;
     width: 20vw;
-    /* Centraliza as imagens horizontalmente na página */
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,7 +33,7 @@
 #show{
     margin-top: 1vw;
     margin-bottom: 5vw;
-    justify-content: center;
+    justify-content: center;/* Centraliza os itens no eixo horizontal do container, fazendo com que eles fiquem igualmente espaçados à esquerda e à direita. */
     align-items: center;
     text-align: center;
 }
