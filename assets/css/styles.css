@@ -36,12 +36,6 @@ body{
       height: 0%;
     }
   }
-.logocentro.desativo{
-    width: 80%;
-    margin: 0 auto;
-    display: none;
-    transition: 0.5s;
-  }
 .logo{
     height: 23vw;
     width: 23vw;
@@ -58,13 +52,6 @@ body{
     width:100%;
     height: 5vw;
     padding-top: 2vw;
-}
-.navegacao.sticky{
-    background-image: none;
-    background-color: rgba(13, 13, 13, 0.9);
-    top: 0;
-    position: fixed;
-    transition: 0.5s;
 }
 .navegacao ul{
     display: flex;
