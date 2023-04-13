@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* Estilo da divisão Jaraguenses */
 #jaraguenses{
     text-align: left;
     display: grid;
@@ -18,6 +19,7 @@
     margin-top: 10vw;
     margin-right: -12vw;
 }
+/* Estilo da divisão Stone Lich */
 #stonelich{
     text-align: right;
     display: grid;
@@ -38,6 +40,7 @@
     margin-right: -16vw;
     margin-left: 5vw;
 }
+/* Estilo da divisão Canais do Youtube */
 .channels{
     text-align: left;
     display: grid;

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.contact{
+    background-image: url(../img/bgContact.png);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+}
