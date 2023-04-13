@@ -1,24 +1,24 @@
 /* Importa uma fonte do "google fonts" */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 /* Ajuste de todas as <p></p> dentro do id "band" */
-#band p{
+.corpo p{
     font-family: 'Special Elite', cursive;
     text-align: center;
     font-size: 2vw;
-    margin-left: 12vw;
-    margin-right: 12vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-top: 7vw;
     margin-bottom: 7vw;
 }
 /* Define um layout de grade de 2 colunas  */
 #members{
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;    
 }
 /* Estilo da divisão members*/
 #members img{
-   width: 39.4vw;
+   width: 100%;
    height: 30vw;
    margin-top: 3vw;
 }
