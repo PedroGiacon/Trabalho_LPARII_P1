@@ -42,8 +42,7 @@
     text-align: center;
 }
 /* Define a estilização para o elemento com id "show" */
-#show img{
-    border: 0.1vw solid #9a9a9a ;
+#show iframe{
     height: 26vw;
     width: 47vw;
     display: block;
