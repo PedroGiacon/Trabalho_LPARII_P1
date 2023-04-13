@@ -8,69 +8,77 @@
     /* Define a caixa de conteúdo como borda-box para que o tamanho total do elemento inclua as bordas e o preenchimento */
     box-sizing: border-box;
 }
+/* Define o estilo do corpo da página */
 body{
-    background-image: url(../img/fundoHTML.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f1f2f0;
+    background-image: url(../img/fundoHTML.jpg); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Define a imagem de fundo */
+    background-size: cover; /* Define a imagem de fundo */
+    color: #f1f2f0; /* Define a cor do texto */
 }
+/* Define o estilo do menu */
 .menu{
     background-image: url(../img/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
+/* Define o estilo do logotipo centralizado */
 .logocentro{
-    width: 80%;
+    width: 80%; /* Define a largura do logotipo como 80% do elemento pai */
     margin: 0 auto;
-    display: block;
-    transition: 0.5s;
-    animation-duration: 2s;
-    animation-name: slidein;
+    display: block; /* Define o elemento como bloco para que ele ocupe todo o espaço disponível horizontalmente */
+    transition: 0.5s; /* Define uma transição suave de 0,5 segundos para as propriedades de transição especificadas abaixo */
+    animation-duration: 3s; /* Define a duração da animação como 3 segundos */
+    animation-name: slidein; /* Define o nome da animação que será usada */
 }
+/* Define a animação slidein */
 @keyframes slidein {
     from {
-      margin-bottom: 5%;
-      height: 15%
+        margin-bottom: 5%; /* Define a margem inferior como 5% do elemento pai no início da animação */
+        height: 15%  /* Define a altura do elemento como 15% do elemento pai no início da animação */
     }
-  
+    
     to {
-      margin-bottom: 0%;
-      height: 0%;
+        margin-bottom: 0%; /* Define a margem inferior como 0% do elemento pai no final da animação */
+        height: 0%; /* Define a altura do elemento como 0% do elemento pai no final da animação */
     }
-  }
+}
+/* Define o estilo do logotipo */
 .logo{
-    height: 23vw;
     width: 23vw;
     display: block;
     margin: 0 auto;
-    height: auto;
+    height: auto; /* Define a altura do logotipo como automático, o que mantém a proporção original */
 }
+/* Define o estilo da barra de navegação */
 .navegacao{
     background-image: url(../img/borninha.png);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.75;
+    opacity: 0.75;/* Define o estilo da barra de navegação */
     transition: 0.5s;
     width:100%;
     height: 5vw;
-    padding-top: 2vw;
+    padding-top: 2vw;/* Define o estilo da barra de navegação */
 }
+/* Define o estilo da lista de itens de navegação */
 .navegacao ul{
     display: flex;
 }
+/* Define o estilo dos itens da lista de navegação */
 .navegacao ul li{
-    list-style:none;
-    cursor:pointer;
+    list-style:none;/* Remove os marcadores da lista de navegação */
+    cursor:pointer;/* Define o cursor como ponteiro ao passar o mouse sobre os itens da lista de navegação */
     display:block;
-    font-family: 'Special Elite', cursive;
-    font-size: 3vw;
-    margin-left: 8.55vw;
+    font-family: 'Special Elite', cursive;/* Define a fonte dos itens da lista de navegação como 'Special Elite' em ordem de prioridade */
+    font-size: 3vw;/* Define o tamanho da fonte dos itens da lista de navegação como 3% da largura da janela de visualização */
+    margin-left: 8.55vw;/* Define a margem esquerda dos itens da lista de navegação como 8,55% da largura da janela de visualização */
 }
+/* Define o estilo dos links nos itens da lista de navegação */
 .navegacao ul li a{
-    text-decoration: none;
+    text-decoration: none; /* Remove a decoração de texto dos links nos itens da lista de navegação */
     color: #9A9A9A;
 }
+/* Define o estilo dos links nos itens da lista de navegação quando o mouse está sobre eles */
 .navegacao ul li a:hover{
     text-decoration: none;
     color: #ffffff;
@@ -78,23 +86,25 @@ body{
 .corpo{
     margin-bottom: -2.5vw;
     margin-left: 10vw;
-    margin-right: 10vw;
-    background-color: #080a0e;
-    padding-bottom: 2.5vw;
-    box-shadow: 0px 0px 5vw 0px rgb(0, 0, 0);
+    margin-right: 10vw;/* Define a margem direita do corpo da página como 10% da largura da janela de visualização */
+    background-color: #080a0e;/* Define a cor de fundo do corpo da página como preto*/
+    padding-bottom: 2.5vw;/* Define o preenchimento inferior do corpo da página como 2,5% da largura da janela de visualização */
+    box-shadow: 0px 0px 5vw 0px rgb(0, 0, 0);/* Adiciona uma sombra ao corpo da página para dar uma aparência tridimensional */
 }
+/* Define o estilo dos títulos de nível 1 no corpo da página */
 .corpo h1{
-    font-family: 'Special Elite', cursive; /*Definica fonte a fonte Special Elite é um fonte importada do google */
-    text-align: center; /*Define o alinhamento horizontal do texto como centralizado*/
-    font-size: 2vw; /*Define o tamanho da fonte do elemento h1 em unidades relativas à largura da tela em porcentagem (vw)*/
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 2vw;
     color: #FFFFFF; 
-    background-image: url(../img/background_divisoria.png); /*Define uma imagem de fundo*/
-    background-repeat: no-repeat;/* Define que a imagem de fundo não deve ser repetida*/ 
-    background-size: cover;/*Define o tamanho da imagem de fundo para cobrir todo o elemento*/
+    background-image: url(../img/background_divisoria.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
     width:100%;
     height: 5vw;
     padding-top: 2vw;
 }
+/* Define o estilo do rodapé da página */
 .footer{
     background-image: url(../img/BordaCor.png);
     background-repeat: no-repeat;
@@ -104,30 +114,32 @@ body{
     font-family: 'special elite', cursive;
     padding-top: 4.5vw;
     font-size: 1.2vw;
-    text-align: center; 
-    
+    text-align: center;
 }
+/* Define o estilo do lado esquerdo do rodapé */
 .fotterleft{
     color: #9A9A9A;
-    float: left;
+    float: left; /* Alinha o lado esquerdo do rodapé ao lado esquerdo da página */
     width: 50%;
 }
+/* Define o estilo do link dentro do lado esquerdo do rodapé */
 .fotterleft a{
     text-decoration: none;
     color: #9A9A9A;
 }
+/* Define o estilo do link dentro do lado esquerdo do rodapé quando o mouse é colocado sobre ele */
 .fotterleft a:hover{
     text-decoration: none;
     color: #ffffff;
 }
+/* Define a posição e a largura do lado direito do rodapé */
 .fotterright{
     float: right;
     width: 50%;
 }
+/* Define o tamanho e a margem esquerda do ícone de mídia social no lado direito do rodapé */
 .fotterright img{
     height: 3vw;
     width: 3vw;
     margin-left: 1vw;
 }
-
-
