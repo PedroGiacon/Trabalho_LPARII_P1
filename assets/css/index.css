@@ -1,22 +1,28 @@
 /* Importa uma fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* Define a estilização para o título dentro do elemento com id "news" */
 #news h1{
     margin-bottom: 5vw;
 }
+/* Define a estilização para os elementos com classe "noticia" */
 .noticia{
+    /* Define um layout de grade com 3 colunas de largura igual */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
-/* Ajuste de todas as <img></img> dentro da clss noticia */
+/* Define a fonte para 'Special Elite' e estilo cursive */
 .noticia img{
+    /* Define uma borda sólida com 0.1vw de espessura e cor #9a9a9a */
     border: 0.1vw solid #9a9a9a ;
+    /* Define a altura e largura das imagens para 20% da largura da tela */
     height: 20vw;
     width: 20vw;
+    /* Centraliza as imagens horizontalmente na página */
     margin-left: auto;
     margin-right: auto;
 }
-/* Ajuste de todas as <p></p> dentro da class noticia */
+/* Ajuste de todas as <p></p> dentro da classe "noticia" */
 .noticia p{
     font-family: 'Special Elite', cursive;
     text-align: center;
@@ -24,7 +30,10 @@
     color: #FFFFFF;
     padding-left: 5.5vw;
     padding-right: 5.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
 }
+/* Define a estilização para o elemento com id "show" */
 #show{
     margin-top: 1vw;
     margin-bottom: 5vw;
@@ -32,7 +41,7 @@
     align-items: center;
     text-align: center;
 }
-/* Ajuste de todas as <img></img> dentro da id show*/
+/* Define a estilização para o elemento com id "show" */
 #show img{
     border: 0.1vw solid #9a9a9a ;
     height: 26vw;
@@ -42,12 +51,14 @@
     margin-right: auto;
     margin-top: 2vw;
 }
+/* Define a estilização para o elemento com id "show" */
 #setlist{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 1vw;
 }
-/* Ajuste de todas as <img></img> dentro da id setlist*/
+/* Ajuste de todas as <img></img> dentro da id "setlist" */
 #setlist img{
     height: 24vw;
     width: 17vw;
