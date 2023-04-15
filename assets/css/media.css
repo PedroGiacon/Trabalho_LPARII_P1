@@ -95,8 +95,11 @@
     height: 18vw; /* Define a altura em relação à largura da tela */
 }
 /* Define a estilização para o elemento com id "spotify" */
-#spotify{
+#spotify iframe{
     padding-top: 2vw;
-    padding-left: 2vw;
     padding-right: 2vw;
+    padding-left: 2vw;
+    width: 100%;
+    height: 20vw;
+    border-radius:12px;
 }
